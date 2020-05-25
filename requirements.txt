@@ -13,3 +13,4 @@ pytz==2018.5
 six==1.14.0
 sqlparse==0.2.3
 typing-extensions==3.7.4.2
+djangorestframework-simplejwt==4.4.0
