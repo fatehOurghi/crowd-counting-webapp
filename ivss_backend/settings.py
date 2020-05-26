@@ -83,8 +83,9 @@ WSGI_APPLICATION = 'ivss_backend.wsgi.application'
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:8080',
-    'http://127.0.0.1:8000',
+    'http://localhost:8080',   # accepting requests and response from the vue js front-end app
+    'http://127.0.0.1:8000',   # accepting response and requests from port 8000 (just to be sure)
+    'http://127.0.0.1:27017',  # accepting response from mongodb
 ]
 
 # Database
