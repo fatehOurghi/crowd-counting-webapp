@@ -1,5 +1,5 @@
 dataclasses==0.1
-Django==2.0
+Django==2.2.13
 django-cors-headers==3.2.1
 djangorestframework==3.11.0
 djongo==1.2.30
